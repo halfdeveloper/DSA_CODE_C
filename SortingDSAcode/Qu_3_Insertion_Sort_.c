@@ -26,7 +26,7 @@ void I_sort(int a[],int n)
     {
         temp=a[i];
         j=i-1;
-        while(j>=0 && t<a[j])
+        while(j>=0 && temp<a[j])
         {
             a[j+1]=a[j];
             j--;
